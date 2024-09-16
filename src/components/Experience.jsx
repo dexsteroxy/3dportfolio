@@ -76,7 +76,9 @@ const Experience = () => {
               experience={experience}
             />
           ))}
+           
         </VerticalTimeline>
+       
       </div>
     </>
   );

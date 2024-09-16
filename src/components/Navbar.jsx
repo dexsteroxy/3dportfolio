@@ -61,6 +61,10 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+
+          <a download href="./AmadiSixtusCV.pdf"><button className="text-white px-2 py-0.5 rounded-md shadow-sm shadow-white text-[15px] bg-[#1d1836]  font-medium cursor-pointer">DownloadCV</button></a>
+
+
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -91,6 +95,7 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+                <a download href="./AmadiSixtusCV.pdf"><button className="text-white px-2 rounded-md shadow-sm shadow-white text-[15px] bg-[#1d1836]  font-medium cursor-pointer">DownloadCV</button></a>
             </ul>
           </div>
         </div>

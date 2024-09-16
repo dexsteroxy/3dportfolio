@@ -117,28 +117,28 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "BleauTech",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality applications.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
+    company_name: "Social Networks",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2024 - sep 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Contributed in the development of Social Networks.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      
+      "Developed and integrated secure payment features using Stripe and Paystack, ensuring seamless transactions.",
     ],
   },
   {
@@ -198,25 +198,38 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Result Tracker",
+    image: carrent,
+    source1_code_link: "https://gradepoint-cmkf.onrender.com",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The Result Tracking Management System is a comprehensive platform designed to assist students globally in calculating and monitoring their grade points. It provides a personalized dashboard where students can securely save and access their academic performance data for future reference.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+
+      {
+        name: "Redux/Toolkit",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "Three.js",
+        color: "blue-text-gradient",
+      },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/dexsteroxy/gradePoint",
+    
   },
   {
     name: "Job IT",

@@ -13,7 +13,9 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
+        <div className=" flex flex-col justify-center items-center">
         <Works />
+        </div>
         <Feedbacks />
         <div className='relative z-0'>
           <Contact />
