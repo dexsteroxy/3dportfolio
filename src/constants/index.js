@@ -7,6 +7,8 @@ import {
   typescript,
   html,
   css,
+  boy,
+  admin,
   reactjs,
   redux,
   tailwind,
@@ -14,13 +16,15 @@ import {
   mongodb,
   git,
   figma,
+ gospel,
   docker,
   meta,
+  ellis,
   starbucks,
   tesla,
   shopify,
   carrent,
-  jobit,
+  kmb,
   tripguide,
   threejs,
 } from "../assets";
@@ -139,32 +143,39 @@ const experiences = [
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       
       "Developed and integrated secure payment features using Stripe and Paystack, ensuring seamless transactions.",
+
+      "Utilized React Native for cross-platform development, ensuring a seamless user experienceacross Android and iOS devices.",
+
+      "Implemented Redux, Context API for efficient state management, payment gateways e.g"
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "RESULT TRACKING",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developed responsive web pages/components and user-friendly interfaces using HTML,CSS, JavaScript, typescript, next.js14, react-redux/toolkit, three.js, framer-motion and tailwind.",
+
+      "Optimized load times and boosted application speed by implementing best practices, delivering a smooth and efficient user experience",
+      "Implemented user authentication with Firebase Authentication and Google sign-in,enhancing security and user convenience",
+      "Implemented responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Web Developer",
+    company_name: "Rock&Ark.org",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Debug, troubleshoot, and optimize web applications for maximum speed and scalability.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Utilizing modern frontend technologies such as Vue.js, Tailwind and JavaScript to create robust user interfaces and update features"
     ],
   },
 ];
@@ -172,27 +183,29 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Amadi Sixtus is an exceptional and experienced frontend and mobile developer. When my team at Microsoft needed a highly skilled developer for a short-term contract, I reached out to Sixtus, and he delivered outstanding, high-quality work. His expertise in web and mobile animations is particularly impressive and added significant value to the project. I highly recommend him for any frontend or mobile development tasks.",
+    name: " Amadi Austin (Chukwuemeka) ",
+    href: "https://www.linkedin.com/in/amadiaustinchukwuemeka/",
+    company: " Cloud Solution Architect at Microsoft",
+    image: boy,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I had the privilege of working with Sixtus Amadi at Bleautech, where he consistently demonstrated exceptional skills as a developer. He is highly knowledgeable, efficient, and always delivers tasks on time. His code is well-organized, clean, and follows best practices, making collaboration seamless. I highly recommend him for any development role, as he is both reliable and highly skilled.",
+    name: "Ellis Ifoegbu",
+    designation: "",
+    company: "Senior Frontend Engineer (Flutter) Working At MAX · Full-time",
+    image: ellis,
+    href: "https://www.linkedin.com/in/ellisifoegbu/",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Sixtus Amadi is a highly skilled and dependable developer with exceptional attention to detail. His ability to deliver quality work on time, combined with his expertise in frontend and mobile development, makes him a valuable asset to any team.",
+    name: "Gospel (Okpara) Chinyereugo",
+    designation: "",
+    company: "Senior Software Engineer",
+    image: gospel,
+    href: "https://www.linkedin.com/in/gospel-chinyereugo/",
   },
 ];
 
@@ -232,9 +245,10 @@ const projects = [
     
   },
   {
-    name: "Job IT",
+    name: "Men_Shopper",
+    source1_code_link: "https://kmb-styles.ng/",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This e-commerce platform is designed specifically for men, offering a seamless shopping experience to  purchase clothing of their choice. The platform provides detailed information about available sizes, allowing users to make informed decisions. Once selected, users can place their orders effortlessly and complete the transaction using a secure payment method.",
     tags: [
       {
         name: "react",
@@ -245,33 +259,49 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
+
       {
-        name: "nextjs",
+        name: "Typescript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "Redux/Toolkit",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: kmb,
+    source_code_link: "https://github.com/dexsteroxy/cloth_shopping_site",
+  },
+  {
+    name: "Admin_Dashboard",
+    source1_code_link: "https://admin-dashboard-ylf9.onrender.com/",
+    description:
+      "I built an Admin Dashboard that serves as a centralized platform for managing and monitoring various aspects of the system. It provides real-time data, performance metrics, and user management tools, making operations more efficient. With visual insights like charts and graphs, it simplifies decision-making and streamlines workflows. Additionally, I integrated features for role-based access and activity tracking to enhance system security.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "@syncfusion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+
+    ],
+    image: admin,
+    source_code_link: "https://github.com/dexsteroxy/Dashboard",
   },
 ];
 

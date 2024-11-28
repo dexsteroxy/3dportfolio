@@ -25,7 +25,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl w-[300px] md:w-[360px] w-"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -56,9 +56,9 @@ const ProjectCard = ({
 
             <div
               onClick={() => window.open(source1_code_link, "_blank")}
-              className=" bg-slate-200 w-24  rounded-md flex justify-center items-center cursor-pointer"
+              className=" text-green-500 underline ml-2 cursor-pointer"
             >
-              <img src={logo1} alt="source code" className=" " />
+             <p>Live</p>
             </div>
           </div>
 

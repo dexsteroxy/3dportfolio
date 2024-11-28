@@ -53,6 +53,7 @@ developing seamless and responsive web applications that provide exceptional use
 experiences.
 
       </motion.p>
+      <a download href="./AmadiSixtusCV.pdf"><button className="text-white px-4  p-2 rounded-md shadow-sm shadow-white text-[15px] bg-[#1d1836]  font-medium mt-3 hover:shadow-lg hover:shadow-white cursor-pointer">DownloadCV</button></a>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

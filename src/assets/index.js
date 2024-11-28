@@ -29,16 +29,24 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import kmb from "./kmb.png";
+import admin from './admin.png'
+import boy from './boy.jpg'
+import ellis from './ellis.jpg'
+import gospel from './gospel.jpg'
 export {
   logo,
   backend,
+  gospel,
   creator,
+  admin,
   mobile,
   web,
+  ellis,
   github,
   menu,
   close,
+  boy,
   css,
   docker,
   figma,
@@ -50,12 +58,14 @@ export {
   reactjs,
   redux,
   tailwind,
+  
   typescript,
   threejs,
   meta,
   shopify,
   starbucks,
   tesla,
+  kmb,
   carrent,
   jobit,
   tripguide,

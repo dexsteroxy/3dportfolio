@@ -37,9 +37,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Amadi Sixtus Tochukwu",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "dexsteroxy.1234@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -82,44 +82,33 @@ const Contact = () => {
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
-            <input
-              type='text'
-              name='name'
-              value={form.name}
-              onChange={handleChange}
-              placeholder="What's your good name?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
-            />
+           
+            <span className="bg-black-200 shadow-sm shadow-gray-500 py-4 px-6 text-secondary  rounded-lg outline-none border-none font-medium">Amadi Sixtus Tochukwu</span>
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your email</span>
-            <input
-              type='email'
-              name='email'
-              value={form.email}
-              onChange={handleChange}
-              placeholder="What's your web address?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
-            />
+            <span className='text-white font-medium mb-4'>My Email email</span>
+          
+
+
+            <span className=" bg-black-200 shadow-sm shadow-gray-500 py-4 px-6 text-secondary  rounded-lg outline-none border-none font-medium">dexsteroxy.1234@gmail.com</span>
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Message</span>
-            <textarea
+            <span className='text-white font-medium mb-4'>Whastapp/Phone Number</span>
+            {/* <textarea
               rows={7}
               name='message'
               value={form.message}
               onChange={handleChange}
               placeholder='What you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
-            />
+            /> */}
+
+            <span className="bg-black-200 shadow-sm shadow-gray-500 py-4 px-6 text-secondary  rounded-lg outline-none border-none font-medium">09018944777/09018944777</span>
           </label>
 
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
+        <label>
+          <span></span>
+        </label>
         </form>
       </motion.div>
 
