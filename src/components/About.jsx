@@ -8,10 +8,10 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+  <Tilt className='xs:w-[250px] w-full mx-auto'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full green-pink-gradient p-[1px]   rounded-[20px]   shadow-card'
     >
       <div
         options={{
@@ -45,7 +45,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] p-3 md:px-5 max-w-3xl leading-[30px]'
       >
        I am a passionate software engineer with over three years of experience, I am deeply
 passionate about crafting intuitive and engaging user interface designs. My expertise lies in
@@ -53,7 +53,9 @@ developing seamless and responsive web applications that provide exceptional use
 experiences.
 
       </motion.p>
-      <a download href="./AmadiSixtusCV.pdf"><button className="text-white px-4  p-2 rounded-md shadow-sm shadow-white text-[15px] bg-[#1d1836]  font-medium mt-3 hover:shadow-lg hover:shadow-white cursor-pointer">DownloadCV</button></a>
+    <div className=" px-3">
+    <a download href="./AmadiSixtusCV.pdf"><button className="text-white px-4  p-2 rounded-md shadow-sm md:ml-4 shadow-white text-[15px] bg-[#1d1836]  font-medium mt-3 hover:shadow-sm xs:w-full md:w-72 hover:shadow-cyan-500 cursor-pointer">DownloadCV</button></a>
+    </div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
