@@ -70,7 +70,7 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className='flex-[0.75] bg-black-100 p-6 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -83,14 +83,14 @@ const Contact = () => {
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
            
-            <span className="bg-black-200 shadow-sm shadow-gray-500 py-4 px-6 text-secondary  rounded-lg outline-none border-none font-medium">Amadi Sixtus Tochukwu</span>
+            <span className="bg-black-200 shadow-sm shadow-gray-500 py-4 px-6 text-secondary  rounded-lg outline-none border-none font-medium">Amadi Sixtus </span>
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>My Email email</span>
           
 
 
-            <span className=" bg-black-200 shadow-sm shadow-gray-500 py-4 px-6 text-secondary  rounded-lg outline-none border-none font-medium">dexsteroxy.1234@gmail.com</span>
+            <span className=" bg-black-200 shadow-sm shadow-gray-500 py-4 md:px-6 text-secondary  rounded-lg outline-none border-none font-medium">dexsteroxy.1234@gmail.com</span>
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Whastapp/Phone Number</span>
@@ -103,7 +103,7 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             /> */}
 
-            <span className="bg-black-200 shadow-sm shadow-gray-500 py-4 px-6 text-secondary  rounded-lg outline-none border-none font-medium">09018944777/09018944777</span>
+            <span className="bg-black-200 shadow-sm shadow-gray-500 py-4 md:px-6 text-secondary   rounded-lg outline-none border-none font-medium">09018944777/09018944777</span>
           </label>
 
         <label>
