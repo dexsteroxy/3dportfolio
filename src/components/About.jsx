@@ -53,7 +53,7 @@ developing seamless and responsive web applications that provide exceptional use
 experiences.
 
       </motion.p>
-    <div className=" px-3">
+    <div className=" pl-1">
     <a download href="./AmadiSixtusCV.pdf"><button className="text-white px-4  p-2 rounded-md shadow-sm md:ml-4 shadow-white text-[15px] bg-[#1d1836]  font-medium mt-3 hover:shadow-sm xs:w-full md:w-72 hover:shadow-cyan-500 cursor-pointer">DownloadCV</button></a>
     </div>
 

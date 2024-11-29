@@ -23,9 +23,10 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
+import main from "./company/main.webp";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import blue from "./company/blue.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -37,10 +38,12 @@ import gospel from './gospel.jpg'
 export {
   logo,
   backend,
+  blue,
   gospel,
   creator,
   admin,
   mobile,
+  main,
   web,
   ellis,
   github,

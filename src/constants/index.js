@@ -9,8 +9,10 @@ import {
   css,
   boy,
   admin,
+  main,
   reactjs,
   redux,
+  blue,
   tailwind,
   nodejs,
   mongodb,
@@ -122,7 +124,7 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "BleauTech",
-    icon: starbucks,
+    icon: blue,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -135,7 +137,7 @@ const experiences = [
   {
     title: "React Native Developer",
     company_name: "Social Networks",
-    icon: tesla,
+    icon: main,
     iconBg: "#E6DEDD",
     date: "Jan 2024 - sep 2024",
     points: [
@@ -152,7 +154,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "RESULT TRACKING",
-    icon: shopify,
+    icon: starbucks,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
