@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-
+import laptop from '../assets/laptop4.png'
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
@@ -14,7 +14,7 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
-        <div className="">
+        <div className="pb-12">
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Sixtus</span>
           </h1>
@@ -26,9 +26,13 @@ const Hero = () => {
       </div>
 
 
-  <ComputersCanvas  />
+ <div className=" hidden md:inline-flex w-full h-full">
+ <ComputersCanvas  />
+ </div>
  
-     
+  <div className=" pt-24 md:hidden">
+  <img src={laptop} alt="laptop" className=" flex items-center justify-center mx-auto  h-screen w-f pt-44" />
+  </div>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
