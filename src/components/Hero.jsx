@@ -31,7 +31,7 @@ const Hero = () => {
  </div>
  
   <div className=" pt-24 md:hidden">
-  <img src={laptop} alt="laptop" className=" flex items-center justify-center mx-auto  h-screen w-f pt-44" />
+  <img src={laptop} alt="laptop" className=" flex items-center justify-center mx-auto pt-44" />
   </div>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
